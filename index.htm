@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chess Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1>♛ Chess Master</h1>
+  </header>
+
+  <!-- Player Name Modal -->
+  <div id="playerModal" class="modal">
+    <div class="modal-content">
+      <h2>Enter Player Names</h2>
+      <input type="text" id="player1" placeholder="Player 1 (White)">
+      <input type="text" id="player2" placeholder="Player 2 (Black)">
+      <button id="startBtn">Start Game</button>
+    </div>
+  </div>
+
+  <!-- Container -->
+  <div class="container">
+    <div id="turnIndicator" class="turn-indicator">Waiting to start...</div>
+    <div id="chessboard" class="chessboard"></div>
+    <button id="resetBtn">Reset Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
