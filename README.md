@@ -29,5 +29,5 @@ This project demonstrates strong JavaScript logic handling for piece movement, t
 ## 🌐 Live Demo
 
 🔗 **Live Project Link:**  
-👉 [Live Link](https://mansi-24082006.github.io/Chess-Master/) 
+👉 [Live Link](https://mansi-99914.github.io/Chess-Master/) 
 
